@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+     <style>
+      .top-icons {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+         justify-items: center;
+
+      }
+      .bottom-icons {
+         display: grid;
+         grid-template-columns: 1fr 1fr 1fr 2fr 1fr 1fr 1fr;
+         justify-items: center;
+         background-color: lightgray;
+         position: relative;
+         top: 300px;
+      }
+      #icons{
+         margin: 5px;
+         padding: 15px;
+         font-size: 15px;
+         font-family: sans-serif;
+         color:lightslategrey;
+      }
+      .apps {
+         height: 30px;
+         width: 30px;
+         border-radius: 50px;
+      }
+      .sign-in {
+         height: 30px;
+         width: 30px;
+         border-radius: 50px;
+      }
+      .google-image {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         height: 120px;
+         width: 300px;
+         position: relative;
+         top: 160px
+      }
+      .search-box {
+         display: block;
+         width: 500px;
+         height: 50px;
+         margin: 10px auto 10px auto;
+         border-radius: 50px;
+         border-color: rgb(222, 227, 233);
+         position: relative;
+         top: 150px
+      }
+      .pads {
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         margin: 10px;
+         position: relative;
+         top: 80px
+      }
+      .green-leaf {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+         height: 50px;
+         width: 50px;
+         position: relative;
+         top: 300px;
+      }
+      .nigerian-languages {
+         text-align: center;
+         font-family: sans-serif;
+         position: relative;
+         top: 180px
+      }
+      .nigeria-carbon-neutral {
+         display: grid;
+         grid-template-columns: 450px 1000px;
+         justify-items: center;
+         font-family: sans-serif;
+         padding: 20px;
+         background-color: lightgray;
+         position: relative;
+         top: 295px;
+         color:lightslategrey;
+      }
+     </style>
+     <div class="top-icons">
+        <div class="about" id="icons"> About </div>
+        <div class="store" id="icons"> Store </div>
+        <div class="gmail" id="icons"> Gmail </div>
+        <div class="empty"></div>
+        <div class="images" id="icons"> Images </div>
+        <div class="apps" id="icons"> <img class="apps" src="https://cdn3.iconfinder.com/data/icons/navigation-and-settings/24/Material_icons-01-11-512.png" alt="Application Icon"> </div>
+        <div class="sign-in" id="icons"> <img class="sign-in" src="https://images.unsplash.com/photo-1593085512500-5d55148d6f0d?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FydG9vbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="Profile Picture"> </div>
+     </div>   
+    </head>
+    <body>
+        <img class="google-image" src="https://cdn.pixabay.com/photo/2015/11/02/14/01/google-1018443_960_720.png" alt="The Google Logo">
+     <form action="URL">
+        <input class="search-box" type="search">
+     </form>
+     <div class="pads">
+     <button class="pads" type="google-search"> Google Search </button>
+     <button class="pads" type="google-search"> I'm Feeling Lucky </button>
+     </div>
+     <div class="nigerian-languages">Google offered in: <a href="#">Hausa</a>   <a href="#">Igbo</a>   <a href="#">Ede Yoruba</a>   <a href="#">Nigerian Pidgin</a> </div>
+    </body>
+    <footer>
+     <img class="green-leaf" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAPsAAADJCAMAAADSHrQyAAABDlBMVEX///+NxEJxukR3vUNmtkNgtERUsEU9p0WAwUN2vESIw0OEwkNnuEJruURaskR6v0NLrENJq0Y0o0UroEeHwTRKq0VBqEaJwjr5/fry+OuFwS/V6L3H4afL462Ewj9ptzqPyH0/qDUwoznx+fPh8OQAlzLh79Gs03uiz2uUyFGy14aRxkm/3Jvm8tnd7cu52pHW6cCfzmKay1t5viqNxluKxVZ0vTSt1pW63KKfz3uAwVyfzmrA3qyNx2hgtDPF4bbT6cx1vVCn0ppPrSyEw3TY69SLx3qVy4ms1qdhtVVuumyZzJS02bOMx4hYsV4sojBxu3JzvH673b6CwY1WsGA0o1CazaVXr2xktHcAkCkhIn4UAAAFt0lEQVR4nO2bbVfaSBiGE/FlobQCUgmgYAIB0WrVutTWbaRV2lqtFK22+///yD6TTCYvhN39EJ1zJvd1jl90PtxXn2eemck51TQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACPSU92AHn0XslOII/+juwE0thrbMuOII1B7Uh2BFnsVPXdjuwQcnjV0PVaXXYKKWyQul7NpPtrpq439mTneHqM7SpT16v7spM8OT29pnvuTdlRnprXXtGZ+6bsLE/L/kCoZ8y93g/MyX1Ddp6nw9ho1PRsujd3w0Unall5yB3EzTPjfnA0Y54R94NBY9Y8E/u9OYjWfDcr7kZTj9f8MCPn++bshNP7/kGn8p3W2KglTLjDHeF+IDvhY2FsJNSchvuOcG8o+pHa2KgmmbNibwt3Nd/vSfucC9ePxD+Dit9tmvo8c712aIg7fUE9995h4k2G17pZd/9aKBRaA0N21JSp96OPtXjdjWa14NE6lZ01ZTZr/2au1/ra61qh8IzR6ssOmyr1pCeL2N7Emz3tqOWaP/ujdSI7bppsVucUveC3+UDT3pC2y1Chq43RT5xxXPsZa3TS7Q0989XVoTrHe30wU/RC2JuV+1jT3g5dcWIoO3Fq9GL9Lrw5fpcfr3rkVo9lR06L/UaCdyHQdtv8T+qOIfPO5/O59lvZmVNivzqn3sKbNTm9XU6GuXwux+Tbioy6vWpCuSPejHe0Mk/qJL6wsNBW40bb2Z1Xbt+bSp0bkux46IkT72WnTofTVnyqhcvNOpx+hn/RynftBY4i232zEZ9qoXLn+fbOfaCVdU/9OeGMZMdOg3orIr4a8s55u5t1ucO299u26+26y46dCqetxO2dd8vt727njFZ2HM+7WCy2t2THToPem5h2XmjnF8TuZjOeyu56FxcXF9Vo+dN4m+ei2mx/Fz+ylV2HixMfVfhu0RuGp7m3u0PivMe7bOkF914iPsnOnQYfvN2dm2lzMdWeF70GHzncmzhX4WJTH4ouT/YmHHayax3fe2npxYsL2bnT4KQd114Ia7Pt7Xj9veV7E+djybFT4X0uSft5MZhqzhd34dk592YoUfauM6Md9qY6F7e8hS8Clk0lyn7SnmnzxWCYs6H22V1nXHJtFyXKrn1ozym3r77lrbsQ3oTZlZo5LZzIVIt6s5nm7XXti7kcYCpxtmt7TrjcUW+mzi0/hdVLy3Izp8WZU1wsxrSDaW5ee6u+CvUSocago14uJpWbTzVz5C3y1Usu5lepidPjYp43mV/yicYavuTzsvRNbuLUMC6TvZn6BX+oXZnCu1wul8qq/P+gTrI3U/c7+8L0tRnrlgpvGJf6eZI3mS/zedb5ZgbehKXInCO65zPabKaZ33m/j1+WhDaxopC6NjaX49AgL434n6/NwFs1dW1kRrXdM8wvujGdhLzJfF2NqyxHuIszzCz7tR2XLSHOsG5UmfAernspdHiXxMXlarLilZszmcoM+giMzFLo8C5NvvsnWPfGCrRd9WupQR8B7u6eYi8nP/z9bFDRw1SsikpTzmNs+od3eXIj9EbrVli8UplMVfgYH6PLD7GVyc1I/O7HJKRNWJVbiREfjbo7ysPmxpVlBdoVt+hqzXefDhXdsqai241ry6pEsO9HEvM9JsbNZHIV3Fhu762VmPqDgjudM70O3G7XYzWv2Hdqtnuc8c+o+VrFnip1h51L91fIfI3IjLlxZ4W919Zs+y4b5tptxQq0mfn9Qzb2OT1V7ZA3mf+6VXe2RxlHxe+z0uzEgx0St39npuTE1A7Ef15nZJe7GL9s0esP2el1hq9ur92p9zz/D1z1jG1yzp2dpaM8wq1N5hksOWFQvyv3/fF/8vD37yx2O8NYu5MdQRrj37ITyCOT452TucsMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8Nf8AuOy2MmUIkaEAAAAASUVORK5CYII=" alt="Cabon Neutral Leaf">
+     <div class="nigeria-carbon-neutral"> 
+     <div> Nigeria </div>
+     <div> Carbon neutral since 2007 </div>
+     </div>
+     <div class="bottom-icons">
+        <div class="advertising" id="icons"> Advertising </div>
+        <div class="business" id="icons"> Business </div>
+        <div class="how-search-works" id="icons"> How Search works </div>
+        <div class="empty"></div>
+        <div class="privacy" id="icons"> Privacy </div>
+        <div class="terms" id="icons"> Terms </div>
+        <div class="settings" id="icons"> Settings </div>
+     </div>
+    </footer>
+  </html>
